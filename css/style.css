@@ -1,0 +1,37 @@
+.logo {
+    width: 20%; /* Set to desired percentage */
+    margin: auto;
+  }
+
+  body {
+    scroll-behavior: smooth;
+}
+.hero {
+    height: 100vh;
+    background: url('image/school.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    border-radius: 10px;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.skill-bar {
+    height: 8px;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+.skill-progress {
+    height: 8px;
+    background-color: #007bff;
+    border-radius: 5px;
+}
